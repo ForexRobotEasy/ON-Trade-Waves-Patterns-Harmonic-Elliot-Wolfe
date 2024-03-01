@@ -1,0 +1,83 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            ON Trade Waves Patterns Harmonic Elliot Wolfe |
+//|                                      https://forexroboteasy.com |
+//|                                        Developed by Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                                   Control Panel |
+//+------------------------------------------------------------------+
+class ControlPanel
+{
+   string chartSettings;
+   ENUM_TIMEFRAMES timeframe;
+   bool minimize;
+
+   void SaveSettings()
+   {
+      // Save chart and timeframe settings
+   }
+
+   void Transition()
+   {
+      // Transition between different configurations
+   }
+
+   void Minimize()
+   {
+      // Minimize the control panel
+   }
+};
+
+//+------------------------------------------------------------------+
+//|                                                 Trading Functions |
+//+------------------------------------------------------------------+
+class TradingFunctions
+{
+   void MarketAnalysis()
+   {
+      // Perform market analysis
+   }
+
+   void CurrencyTrading()
+   {
+      // Facilitate currency trading
+   }
+};
+
+//+------------------------------------------------------------------+
+//|                                              Harmonic Patterns |
+//+------------------------------------------------------------------+
+class HarmonicPatterns
+{
+   void IdentifyPatterns()
+   {
+      // Identify harmonic patterns on the chart
+   }
+
+   void DrawPatterns()
+   {
+      // Draw harmonic patterns on the chart
+   }
+};
+
+//+------------------------------------------------------------------+
+//|                                                     Main Program |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   ControlPanel panel;
+   TradingFunctions trading;
+   HarmonicPatterns patterns;
+
+   panel.SaveSettings();
+   panel.Transition();
+   panel.Minimize();
+
+   trading.MarketAnalysis();
+   trading.CurrencyTrading();
+
+   patterns.IdentifyPatterns();
+   patterns.DrawPatterns();
+}
